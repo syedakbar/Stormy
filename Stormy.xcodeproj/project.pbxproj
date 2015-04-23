@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C590C7C31AAD22DB005CAA1B /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = C590C7C21AAD22DB005CAA1B /* Current.swift */; };
+		C59664351AAE2F980049E5FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59664341AAE2F980049E5FD /* Images.xcassets */; };
 		C5F25AC71AA677590028E80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F25AC61AA677590028E80D /* AppDelegate.swift */; };
 		C5F25AC91AA677590028E80D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F25AC81AA677590028E80D /* ViewController.swift */; };
 		C5F25ACC1AA677590028E80D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F25ACA1AA677590028E80D /* Main.storyboard */; };
-		C5F25ACE1AA677590028E80D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F25ACD1AA677590028E80D /* Images.xcassets */; };
 		C5F25AD11AA677590028E80D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F25ACF1AA677590028E80D /* LaunchScreen.xib */; };
 		C5F25ADD1AA6775A0028E80D /* StormyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F25ADC1AA6775A0028E80D /* StormyTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,12 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C590C7C21AAD22DB005CAA1B /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		C59664341AAE2F980049E5FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../Downloads/Stormy/Stormy/Images.xcassets; sourceTree = "<group>"; };
 		C5F25AC11AA677590028E80D /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F25AC51AA677590028E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F25AC61AA677590028E80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F25AC81AA677590028E80D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5F25ACB1AA677590028E80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5F25ACD1AA677590028E80D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5F25AD01AA677590028E80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C5F25AD61AA6775A0028E80D /* StormyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F25ADB1AA6775A0028E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,8 +81,9 @@
 			children = (
 				C5F25AC61AA677590028E80D /* AppDelegate.swift */,
 				C5F25AC81AA677590028E80D /* ViewController.swift */,
+				C590C7C21AAD22DB005CAA1B /* Current.swift */,
 				C5F25ACA1AA677590028E80D /* Main.storyboard */,
-				C5F25ACD1AA677590028E80D /* Images.xcassets */,
+				C59664341AAE2F980049E5FD /* Images.xcassets */,
 				C5F25ACF1AA677590028E80D /* LaunchScreen.xib */,
 				C5F25AC41AA677590028E80D /* Supporting Files */,
 			);
@@ -193,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F25ACC1AA677590028E80D /* Main.storyboard in Resources */,
+				C59664351AAE2F980049E5FD /* Images.xcassets in Resources */,
 				C5F25AD11AA677590028E80D /* LaunchScreen.xib in Resources */,
-				C5F25ACE1AA677590028E80D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C590C7C31AAD22DB005CAA1B /* Current.swift in Sources */,
 				C5F25AC91AA677590028E80D /* ViewController.swift in Sources */,
 				C5F25AC71AA677590028E80D /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				C5F25AE21AA6775A0028E80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5F25AE31AA6775A0028E80D /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				C5F25AE51AA6775A0028E80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
